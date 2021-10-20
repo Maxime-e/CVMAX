@@ -64,7 +64,8 @@ h5 {
   color: white;
   font-size: xx-large;
   margin: auto;
-  text-shadow: 1px 1px 0 #873900, 2px 2px 0 #963F00;
+  text-shadow: 1px 1px 0 #f80404, 2px 2px 0 #ff0303;
+  
 }
 h2 {
   text-align: center;
