@@ -9,7 +9,7 @@ a {
   
   .secondary-block {
     color: rgb(255, 255, 255);
-    background-color: rgb(18, 184, 115);
+    background-color: rgb(26, 35, 75);
 
 }
   
@@ -36,6 +36,9 @@ a {
 }
   
   nav li {
+    content: "•";
+    padding-right: 8px;
+    color: black;
     margin-left: 15px;
 
 }
