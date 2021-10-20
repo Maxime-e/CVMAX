@@ -54,14 +54,17 @@ a {
 .content {
   max-width: 800px;
   margin: 0 auto;
-  background-image: url(zzzz);
 }
 
 h1 {
   text-align: center;
 
 }
-
+h5 {
+  color: white;
+  font-size: xx-large;
+  margin: auto;
+}
 h2 {
   text-align: center;
 
