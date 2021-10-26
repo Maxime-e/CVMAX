@@ -197,6 +197,21 @@ window.onclick = function(event) {
       <p>Blockchain et noeud de blockchain</p>
     </div>
   </section>
+  <section>
+    <div>
+      <form method="post" action="mail.php">
+      <label for="name">Nom:</label>
+      <input type="text" name="Subject" id="name" required placeholder="Nom" />
+      <label for="name">Objet:</label>
+      <input type="text" name="Sujet" id="subject" required placeholder="Sujet" />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="email@exemple.com"/>
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" required></textarea>
+      <input type="submit" value="Envoyer Mon Message" />
+    </form>
+  </div>
+  </section>
   <footer class="secondary-block">
     <div class="content">
       <div class="links">
@@ -205,5 +220,6 @@ window.onclick = function(event) {
           <li><img src="logo-insta.png" alt="https://www.instagram.com/planstagraine/?hl=fr"><a href="https://www.instagram.com/planstagraine/?hl=fr">INSTAGRAM</a></li>
           <li><img src="tele-2.png" alt="https://www.t.me/CVMAX1"><a href="https://www.t.me/CVMAX1">TELEGRAM</a></li>
         </ul>
+      
 </body>
 </html>
