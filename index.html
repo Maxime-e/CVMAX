@@ -65,6 +65,34 @@ window.onclick = function(event) {
           <li><a href="#profile">Profil</a></li>
           <li><a href="#xp">Expériences</a></li>
           <li><a href="#education">Formations</a></li>
+          <li><button id="myBtn">VIDEO INTRODUCTION</button><div id="myModal" class="modal">
+            <button id="myBtn">Open Intro CV</button>
+            <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="#" data-toggle="modal" data-target="#youtubeVideo">Vidéo YouTube intro CV</a>
+            <a href="modal"></a>="corps-modal">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/thhhWZowAz8" frameborder="0" allow="autoplay;coded-media" allowfullscreen></iframe>
+      </div>
+  </div>
+</div>
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+          </div></li>
         </ul>
       </nav>
     <header>
@@ -173,10 +201,9 @@ window.onclick = function(event) {
     <div class="content">
       <div class="links">
         <ul>
-          <li><img src="fb.jpg" alt="https://www.facebook.com/maxime.passpass/"><a href="https://www.facebook.com/maxime.passpass/">Facebook</a></li>
-          <li><img src="insta.jpg" alt=""><a href="https://www.instagram.com/planstagraine/?hl=fr">Instagram</a></li>
-          <li><img src="tele-2.png" alt="https://www.t.me/CVMAX1"><a href="https://www.t.me/CVMAX1">Telegram</a></li>
-          <li><img src="" alt=""></li>
+          <li><img src="logo-db2.png" alt="https://www.facebook.com/maxime.passpass/"><a href="https://www.facebook.com/maxime.passpass/">FACEBOOK</a></li>
+          <li><img src="logo-insta.png" alt="https://www.instagram.com/planstagraine/?hl=fr"><a href="https://www.instagram.com/planstagraine/?hl=fr">INSTAGRAM</a></li>
+          <li><img src="tele-2.png" alt="https://www.t.me/CVMAX1"><a href="https://www.t.me/CVMAX1">TELEGRAM</a></li>
         </ul>
 </body>
 </html>
