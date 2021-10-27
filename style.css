@@ -139,7 +139,7 @@ footer {
   
   .links {
     margin-bottom: 25px;
-    display: inline-block;
+    display: inline;
     width: 390px;
     text-align: center;
 }
@@ -160,15 +160,14 @@ form div + div {
 
 label {
   display: inline-block;
-  width: 90px;
+  width: 5px;
   text-align: right;
 
 }
 
 input, textarea {
   font: 1em sans-serif;
-
-  width: 300px;
+  width: 400px;
   box-sizing: border-box;
   border: 1px solid #999;
 
