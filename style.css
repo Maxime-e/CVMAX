@@ -48,8 +48,10 @@ a {
 
 }
 .content1 {
+  text-align: center;
   background-image: url(http://microbus.be/wp-content/uploads/2019/02/FOND_CODAGE_2021_V2.jpg);
-  max-width: 1800px;
+  max-width: 100%;
+
 }
 .content {
   max-width: 800px;
