@@ -6,24 +6,27 @@ a {
     color: rgb(255, 255, 255);
 
 }
-  
+  .secondary-block1{
+    color: white;
+    background-color: rgb(26,35,75);
+  }
   .secondary-block {
     color: rgb(255, 255, 255);
     background-color: rgb(26, 35, 75);
-
+  
 }
   
   nav {
     display: flex;
     height: 70px;
-
+    color: #f8f8f8;
 }
   
   nav h2 {
     list-style-type: none;
     padding: 20px 0 20px 15px;
     margin: 0;
-
+    color: #f8f8f8;
 }
   
   nav ul {
@@ -32,20 +35,20 @@ a {
     margin: 0;
     list-style: none;
     padding: 24px;
-
+    color: #f8f8f8;
 }
   
   nav li {
     content: "•";
     padding-right: 8px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-left: 15px;
 
 }
   header {
   text-align: center;
   padding: 40px;
-
+  color: #aaaaaa;
 }
 .content1 {
   text-align: center;
@@ -75,7 +78,7 @@ h2 {
 }
 
 header h2 {
-  color: black;
+  color: rgb(133, 10, 10);
 
 }
 
@@ -86,7 +89,10 @@ img {
   box-shadow: 3px 3px 6px rgb(170, 170, 170);
 
 }
-
+.profil{
+  color: #aaaaaa;
+  background-color: #aaaaaa;
+}
 section {
     padding: 40px;
 
@@ -96,12 +102,12 @@ section {
     list-style: none;
     padding: 0;
     margin: 0;
-
+    
 }
   
   #xp li {
     margin-bottom: 10px;
-
+    
 }
   
   #xp aside {
@@ -109,15 +115,16 @@ section {
 
 }
 #education ul {
+    color: #f8f8f8;
     list-style: none;
     padding: 0;
     margin: 0;
-
+    color: white;
 }
   
   #education li {
     margin-bottom: 10px;
-
+    color: white;
 }
   
   #education aside {
@@ -127,17 +134,18 @@ section {
 
 footer {
     padding: 40px;
-
+    color: #f8f8f8;
 }
   
   footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
+    color: #f8f8f8;
 }
   
   .links {
+    color: #f8f8f8;
     margin-bottom: 25px;
     display: inline;
     width: 390px;
@@ -252,7 +260,7 @@ ul {
 }
 
 a {
-  color: #2c3e50;
+  color: #ffffff;
   text-decoration: none;
 }
 
