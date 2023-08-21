@@ -47,8 +47,8 @@ Bootstrap 5 Form Pack Template
 }
 
 body {
-  background-color: var(--body-bg-color);
-  font-family: var(--body-font-family); 
+    background-color: var(--white-color);
+    font-family: var(--body-font-family);
 }
 
 
@@ -93,15 +93,15 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
+    color: var(--white-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-normal);
 }
 
 ul li {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
+    color: var(--white-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-normal);
 }
 
 a, 
@@ -111,14 +111,14 @@ button {
 }
 
 a {
-  display: inline-block;
-  color: var(--secondary-color);
-  text-decoration: none;
+    display: inline-block;
+    color: var(--white-color);
+    text-decoration: none;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-}
+    a:hover {
+        color: var(--white-color);
+    }
 
 b,
 strong {
@@ -144,8 +144,8 @@ strong {
 }
 
 .page-404-title {
-  color: var(--primary-color);
-  font-size: 100px;
+    color: var(--white-color);
+    font-size: 100px;
 }
 
 .page-404-title + h3 {
@@ -174,9 +174,9 @@ strong {
 }
 
 .custom-border-btn {
-  background: transparent;
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    color: var(--white-color);
 }
 
 .custom-border-btn:hover {
@@ -191,13 +191,13 @@ strong {
 }
 
 .custom-btn-group .link {
-  color: var(--white-color);
-  font-weight: var(--font-weight-medium);
+    color: var(--white-color);
+    font-weight: var(--white-color);
 }
 
-.custom-btn-group .link:hover {
-  color: var(--link-hover-color);
-}
+    .custom-btn-group .link:hover {
+        color: var(--white-color);
+    }
 
 
 /*---------------------------------------
@@ -278,10 +278,10 @@ strong {
   margin-bottom: 5px;
 }
 
-.offcanvas nav ul li a:hover,
-.offcanvas nav ul li a.active {
-  color: var(--link-hover-color);
-}
+    .offcanvas nav ul li a:hover,
+    .offcanvas nav ul li a.active {
+        color: var(--white-color);
+    }
 
 
 /*---------------------------------------
@@ -320,12 +320,12 @@ strong {
 }
 
 .hero-section small {
-  color: var(--primary-color);
-  display: block;
-  font-size: var(--btn-font-size);
-  font-style: italic;
-  position: relative;
-  padding-left: 75px;
+    color: var(--white-color);
+    display: block;
+    font-size: var(--btn-font-size);
+    font-style: italic;
+    position: relative;
+    padding-left: 75px;
 }
 
 .hero-section small::before {
@@ -375,9 +375,9 @@ strong {
 }
 
 .countdown-text {
-  color: var(--section-bg-color);
-  font-size: var(--p-font-size);
-  font-style: italic;
+    color: var(--white-color);
+    font-size: var(--p-font-size);
+    font-style: italic;
 }
 
 
@@ -410,10 +410,10 @@ strong {
 }
 
 .modal-header {
-  background-color: var(--dark-color);
-  border-radius: 0;
-  border-bottom: 0;
-  padding: 0;
+    background-color: var(--white-color);
+    border-radius: 0;
+    border-bottom: 0;
+    padding: 0;
 }
 
 .modal-body h2 {
@@ -456,14 +456,14 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  border-radius: var(--border-radius-large);
-  border-width: 2px;
-  box-shadow: none;
-  color: var(--p-color);
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  outline: none;
+    border-radius: var(--border-radius-large);
+    border-width: 2px;
+    box-shadow: none;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
 }
 
 .custom-form .form-control:focus,
@@ -481,7 +481,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: var(--white-color);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -500,7 +500,7 @@ strong {
 }
 
 .custom-form .form-check-label {
-  color: var(--p-color);
+    color: var(--p-color);
 }
 
 .contact-form .form-floating>textarea {
